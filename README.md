@@ -4,9 +4,9 @@ Practical task of Vadim Bendus for Eleks Internship (Nov 2017)
 * Name: Vadim Bendus
 * University: КЕП ІФНТУНГ
 * Course: IV курс
-## Task Info
 ## Video 
 https://www.youtube.com/watch?v=9Lr14pFX84c
+## Task Info
 Fixed ATM
 Estimate - 40h
 Реалізувати “симулятор банкомату” - програму, яка обраховуватиме кількість і вартість купюр, які необхідно видати користувачу.
