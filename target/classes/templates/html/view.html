@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="../css/view.css" rel="stylesheet">
+    <title>Fixed ATM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script>
+        function conf(){
+        if(confirm("Точно вийти?")){
+        window.close();
+        }
+        }
+    </script>
+</head>
+<body style="background-color : #FFE4C4"><div class = "div1">
+    <h1>"Симулятор банкомату"</h1>
+    <button class="button1" onclick='window.open("http://localhost:8080/",target="_self")'>Дані банкомату</button>
+    <br>
+    <button class="button1" onclick='window.open("http://localhost:8080/search", target="_self")'>Баланс банкомату</button>
+    <br>
+    <button class="button1" onclick='window.open("http://localhost:8080/deposit", target="_self")'>Зняти гроші</button>
+    <br>
+    <button class="button1" onclick='conf();'>Вихід</button>
+</div>
+</body>
+</html>
